@@ -10,18 +10,17 @@ st.write(
     "You can visualize how the clothing will look before making a purchase."
 )
 
-# Input for Hugging Face API token
-api_token = st.text_input(
-    "Enter your Hugging Face API Token:",
-    type="password",
-    value=""  # No pre-filled value for security reasons
-)
+import os
 
-# Initialize the Hugging Face Inference Client
-if api_token:
-    client = InferenceClient(provider="hf-inference", api_key=api_token)
+# Load Hugging Face API token from Streamlit Secrets
+api_token = os.getenv("HF_API_TOKEN")
+
+# Check if token is available
+if not api_token:
+    st.error("Hugging Face API token not found. Please add it to Streamlit Secrets.")
 else:
-    st.warning("Please enter your Hugging Face API token to proceed.")
+    client = InferenceClient(provider="hf-inference", api_key=api_token)
+
 
 # Text input for outfit description
 outfit_description = st.text_area(
