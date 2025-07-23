@@ -44,6 +44,10 @@ This tool bridges the gap between imagination and visualization, especially usef
 | **Stable Diffusion XL** | AI model for image creation |
 | **PIL**      | Image formatting and download  |
 ---
+## 🚀 Live Demo
+
+👉 [Click here to try CoutureAI](https://coutureai.streamlit.app)
+
 ## 🧪 How to Run Locally
 
 ### 1. Clone the repo
@@ -51,6 +55,3 @@ This tool bridges the gap between imagination and visualization, especially usef
 ```bash
 git clone https://github.com/Harshi2709/CoutureAI.git
 cd CoutureAI
-## 🚀 Live Demo
-
-👉 [Click here to try CoutureAI](https://coutureai.streamlit.app)
