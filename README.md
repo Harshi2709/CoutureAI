@@ -48,10 +48,11 @@ This tool bridges the gap between imagination and visualization, especially usef
 
 👉 [Click here to try CoutureAI](https://coutureai.streamlit.app)
 
-## 🧪 How to Run Locally
+## 📸 Screenshots
 
-### 1. Clone the repo
+### 🧾 App Interface:
+![App Interface](https://github.com/Harshi2709/CoutureAI/blob/main/input_ui.png?raw=true)
 
-```bash
-git clone https://github.com/Harshi2709/CoutureAI.git
-cd CoutureAI
+### 👗 Output Generated Outfit:
+![Generated Output](https://github.com/Harshi2709/CoutureAI/blob/main/generated_output.png?raw=true)
+
