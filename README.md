@@ -51,3 +51,6 @@ This tool bridges the gap between imagination and visualization, especially usef
 ```bash
 git clone https://github.com/Harshi2709/CoutureAI.git
 cd CoutureAI
+## 🚀 Live Demo
+
+👉 [Click here to try CoutureAI](https://coutureai.streamlit.app)
